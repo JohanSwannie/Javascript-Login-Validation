@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: rgba(189, 37, 235, 0.5);
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  max-width: 40vw;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.login .container {
+  max-width: 40vw;
+  margin: 3rem auto;
+  padding: 2rem;
+  border: 1px solid #201e1e;
+  border-radius: 0.25rem;
+  outline: 2px solid #FFF;
+  background-color: rgba(218, 30, 30, 0.1);
+}
+
+.label {
+  letter-spacing: 0.08rem;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  color: #333;
+  border: 1px solid rbg(180, 180, 180);
+  background-color: rgb(250, 248, 248);
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+.input:focus {
+  background-color: rgba(191, 241, 193, 0.3);
+}
+
+.error-message {
+  color: red;
+  font-size: 0.95rem;
+  letter-spacing: 0.08rem;
+  word-spacing: 0.35rem;
+}
+
+.button {
+  display: block;
+  width: 25%;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(219, 40, 85, 0.7);
+  border: 1.2px solid #FFF;
+  margin-inline: auto;
+  padding: 1.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.button:hover {
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+  box-shadow: inset 20rem 30rem rgba(25, 5, 115, 0.4);
+}/*# sourceMappingURL=login.css.map */
